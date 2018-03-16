@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.find_price">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimpleBox"
+            android:label="Simple Box"
+    />
+        <activity android:name=".ChestOfDrawer"
+            android:label="Chest Of Drawers"
+            />
+        <activity android:name=".TissueBox"
+            android:label="Tissue Box"
+            />
+        <activity android:name=".PenHolder"
+            android:label="Pen Holder"
+            />
+        <activity android:name=".Chowki"
+            android:label="Chowki"
+            />
+        <activity android:name=".Coaster"
+            android:label="Coaster"
+            />
+        <activity android:name=".CandleHolder"
+            android:label="Candle Holder"
+            />
+        <activity android:name=".HutBox"
+            android:label="Hut Box"
+            />
+
+        <activity android:name=".Frame"
+            android:label="Frame"
+            />
+        <activity android:name=".Tray"
+            android:label="Tray"
+            />
+        <activity android:name=".Polygon"
+            android:label="Polygon Box"
+            />
+        <activity android:name=".NumberOfDiffDrawers"
+            android:label="Chest Of Drawers"
+            />
+    </application>
+
+</manifest>

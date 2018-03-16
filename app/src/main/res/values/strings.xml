@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Find_Price</string>
+    <string-array name="simpleboxdropdown">
+        <item>Only Wood</item>
+        <item>Only NewWood</item>
+        <item>Mixture of Wood And NewWood</item>
+    </string-array>
+</resources>

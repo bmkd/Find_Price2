@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="#607d8b">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberofdraws"
+            android:text="Number of Draws: "
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bottom: "
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left: "
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="6dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textAllCaps="true"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right: "
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="6dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Front: "
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="6dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back: "
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="6dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:fontFamily="serif"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="10dp">
+            <CheckBox
+                android:id="@+id/woodbottom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/woodleft1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/woodright1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/woodfront1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/woodback1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp">
+            <CheckBox
+                android:id="@+id/newwoodbottom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:fontFamily="serif"
+                android:text="New Wood"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/newwoodleft1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="New Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/newwoodright1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="New Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/newwoodfront1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="New Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+            <CheckBox
+                android:id="@+id/newwoodback1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="New Wood"
+                android:fontFamily="serif"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wood Thickness: "
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/woodwidth1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In Inches"
+            android:textSize="18dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textcubefeet1"
+            android:text="Cube-Feet Rate: "
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/cubefeet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In ₹"
+            android:textSize="18dp"
+            android:text=""
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textsquarefeet1"
+            android:text="Square-Feet Rate: "
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/squarefeet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In ₹"
+            android:textSize="18dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Length: "
+            android:textSize="18dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/Length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In Inches"
+            android:text=""
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depth: "
+            android:fontFamily="serif"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/Breadth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In Inches"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:fontFamily="serif"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/Height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="In Inches"
+            android:textSize="18dp"
+            android:text=""
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dynamiclayout"
+        android:orientation="vertical">
+
+    </LinearLayout>
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_calculate" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price: "
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
